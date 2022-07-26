@@ -1,0 +1,49 @@
+body{
+    background-image: linear-gradient();
+}
+.box{
+    width: 300%;
+    height: 50%;
+    margin-top: 10%;
+    background-image: linear-gradient(to left ,rgba(24, 170, 180, 0) ,rgba(24, 170, 180, 7) );
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.box2{
+    width: 300%;
+    height: 50vh;
+    background-color: rgba(123, 203, 221, 3);
+    box-shadow: 5px 5px 5px gray;
+    align-items: center;
+    
+}
+
+form label{
+    color: white;
+    
+}
+.form-con{
+    position: relative;
+    left: 25%;
+}
+.btn{
+    border: 1px solid white;
+    color: rgba(75, 73, 73, 1);
+    background-color: white;
+    width: 20%;
+
+}
+.btn-pos{
+    position: relative;
+    left: 15%;
+    border-radius: 8px;
+    padding: 10px;
+}
+.but-pos{
+    padding-top: 10px;
+    position: relative;
+    left: 3%;
+}
