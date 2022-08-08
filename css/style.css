@@ -19,7 +19,7 @@ body{
 .box2{
     width:800px;
     height: 50vh;
-    background-color: rgba(123, 203, 221, 3);
+    background-color: white;
     box-shadow: 5px 5px 5px gray;
     align-items: center;
     overflow: hidden;
@@ -75,4 +75,29 @@ form label{
         position: relative;
         right: -35px;
     }
+}
+h5{
+    font-weight: lighter;
+    position: relative;
+    top: 25px;
+    left: -10px;
+}
+
+.plus{
+    position: relative;
+    right: -50px;
+    top: 15px;
+    width: 80px;
+}
+
+.icon-search{
+    width: 25px;
+    position: relative;
+    top: -32px;
+    right: -220px;
+}
+
+.profile{
+    width: 130px;
+    height: 80px;
 }
