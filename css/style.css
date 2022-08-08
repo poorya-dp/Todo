@@ -1,8 +1,8 @@
 body{
-    background-image: linear-gradient();
+    background-color: rgba(44, 146, 146, 0.747);
 }
 .box{
-    width: 300%;
+    width: 800px;
     height: 50%;
     margin-top: 10%;
     background-image: linear-gradient(to left ,rgba(24, 170, 180, 0) ,rgba(24, 170, 180, 7) );
@@ -10,15 +10,22 @@ body{
     text-align: center;
     padding-top: 7px;
     box-shadow: 5px 5px 5px gray;
+    position: relative;
+    top: 120px;
+    right: -100px;
+
 }
 
 .box2{
-    width: 300%;
+    width:800px;
     height: 50vh;
     background-color: rgba(123, 203, 221, 3);
     box-shadow: 5px 5px 5px gray;
     align-items: center;
-    
+    overflow: hidden;
+    position: relative;
+    top:120px;
+    right: -100px;
 }
 
 form label{
@@ -48,15 +55,24 @@ form label{
     left: 3%;
 }
 
-@media screen  and (min-width : 600px){
+@media screen and (min-width:1190px) {
+    .box{
+        position: relative;
+        right: -250px;
+    }
+    .box2{
+        position: relative;
+        right: -250px;
+    }
+}
+@media screen and (max-width:990px) {
     
     .box{
         position: relative;
-        top: 200px;
+        right: -35px;
     }
     .box2{
-        height: 50%;
         position: relative;
-        top: 200px;
+        right: -35px;
     }
 }
